@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senhas</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/password.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="gerador">
+        <input type="number" id="comprimento" min="1" max="100" placeholder="Comprimento da senha" />
+        <button id="button">Gerar senha</button>
+    </div>
+        <div class="resultado">
+            <p id="senha"></p>
+            <button id="copyButton" style="display: none;">Copiar senha</button>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    background-color: rgb(241, 230, 215);
+}
+
+.gerador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 100%; 
+}
+
+.gerador input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 170px;
+}
+
+#button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado p {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#copyButton {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
